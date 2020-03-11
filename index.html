@@ -221,6 +221,7 @@
                                     var journalLink = paper.journallink ? "<a href=\""+ paper.journallink + "\"class=\"journalLink\" target=\"_blank\">Journal Link</a>\n": "";
                                     var seperator1 = paper.journallink ? ", " : "";
                                     var seperator2 = paper.journal ? ", " : "";
+                                    var citation = paper.citation? "<button type=\"button\" class=\"btn btn-link social-icons\" data-toggle=\"modal\" title=\"Cite Me!\" data-target=\"#cite" + i + "\"><i class=\"fas fa-quote-right\"></i></button>\n" :"";
 
                                     document.write("<div class=\"divTableRow\">\n" +
                                         "                            <div class=\"paperTitle\">\n" +
@@ -230,7 +231,7 @@
                                         "                                </a>\n" + seperator2 +
                                         "  <span class=\"journalTitle\">"+ paper.journal + seperator1 + journalLink +
                                         "                                </span>" +
-                                        "<button type=\"button\" class=\"btn btn-link social-icons\" data-toggle=\"modal\" title=\"Cite Me!\" data-target=\"#cite" + i + "\"><i class=\"fas fa-quote-right\"></i></button>\n" +
+                                        citation +
                                         "<!-- Modal -->\n" +
                                         "<div class=\"modal fade\" id=\"cite" + i + "\" role=\"dialog\">\n" +
                                         "    <div class=\"modal-dialog modal-lg\">\n" +
@@ -262,6 +263,581 @@
 
                         <script src="https://script.google.com/macros/s/AKfycbw53p9DsKm2kKjF53muN2ksJFmhUAjseKvFN5L-4aX7GaZN0lw/exec?prefix=display">
                         </script>
+
+
+
+
+                  <!--      &lt;!&ndash; Published papers &ndash;&gt;
+
+                        &lt;!&ndash; Published papers start &ndash;&gt;
+
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rpj.pdf">
+                                Tail Risk and Return Predictability for the Japanese Equity Market,</a>
+                                <span class="journalTitle">Journal of Econometrics,
+                                    <a href="https://www.semanticscholar.org/paper/Tail-Risk-and-Return-Predictability-for-the-Equity-Andersen-Todorov/1ceaf3b5f309b7843cf8cba0f272083018501669"
+                                       class="journalLink" target="_blank">Journal Link</a>
+                                </span>
+                            </div>
+                            <div class="authors">Torben Andersen, <span class="author">Viktor Todorov</span>, Masato Ubukata
+                            </div>
+                            <div class="year">2019</div>
+
+                        </div>
+
+                        &lt;!&ndash; Published papers &ndash;&gt;
+
+
+
+                        <div class="divTableRow">
+
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ove.pdf">Nonparametric
+                                Spot
+                                Volatility from Options,</a> <span
+                                    class="journalTitle">Annals of Applied Probability, <a href="https://projecteuclid.org/euclid.aoap/1578366322" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2019</div>
+                        </div>
+
+
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/opg.pdf">The
+                                Pricing of Tail Risk and the Equity Premium: Evidence from International Optional
+                                Markets,</a> <span
+                                    class="journalTitle">Journal of Business Economics and Statistics, <a href="https://www.tandfonline.com/doi/abs/10.1080/07350015.2018.1564318" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span></div>
+                            <div class="year">2018</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/opj.pdf">Inference
+                                for Option Panels
+                                in Pure-Jump Settings,</a> <span class="journalTitle">Econometric Theory, <a href="https://www.cambridge.org/core/journals/econometric-theory/article/inference-for-option-panels-in-purejump-settings/29F27ED243DED6D25192E34605563FC2" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span>, Rasmus Varneskov
+                            </div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tod.pdf">Time-Varying
+                                Periodicity in
+                                Intraday Volatility,</a> <span class="journalTitle">Journal of the American Statistical Association, <a href="https://amstat.tandfonline.com/doi/abs/10.1080/01621459.2018.1512864?journalCode=uasa20#.XkSIyS_MzOQ" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Torben Andersen, Martin Thyrsgaard, <span
+                                    class="author">Viktor Todorov</span></div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/opt.pdf">Unified
+                                Inference for
+                                Nonlinear Factor Models from Panels with Fixed and Large Time Span,</a> <span
+                                    class="journalTitle">Journal of
+          Econometrics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407619300739" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span>, Rasmus Varneskov
+                            </div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/fac.pdf">Rank
+                                Tests at Jump
+                                Events,</a> <span class="journalTitle">Journal of Business and Economic Statistics, <a href="https://www.tandfonline.com/doi/abs/10.1080/07350015.2017.1328362" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Jia Li, <span class="author">Viktor Todorov</span>, George Tauchen,
+                                Huidi Lin
+                            </div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jpe.pdf">Jump
+                                Factor Models in Large
+                                Cross-Sections,</a> <span class="journalTitle">Quantitative Economics, <a href="http://qeconomics.org/ojs/index.php/qe/article/view/664" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jia Li, George Tauchen
+                            </div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/lde.pdf">Nonparametric
+                                Implied Levy
+                                Densities,</a> <span class="journalTitle">Annals of Statistics, <a href="https://projecteuclid.org/euclid.aos/1547197247" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Likuan Qin, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/bsm.pdf">Nonparametric
+                                Inference for
+                                the Spectral Measure of A Bivariate Pure-Jump Semimartingale,</a> <span
+                                    class="journalTitle">Stochastic
+          Processes and Its Applications, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304414918300474" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2019</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ecf.pdf">Limit
+                                Theorems for
+                                Integrated Local Empirical Characteristic Exponents from Noisy High-Frequency Data with
+                                Application to
+                                Volatility and Jump Activity Estimation,</a> <span class="journalTitle">Annals of Applied Probability, <a href="https://projecteuclid.org/euclid.aoap/1520046094" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Jean Jacod, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2018</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/mjr.pdf">Mixed-scale
+                                Jump Regressions
+                                with Bootstrap Inference,</a> <span class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407617301690" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jia Li, George Tauchen,
+                                Rui Chen
+                            </div>
+                            <div class="year">2015</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/vom.pdf">Adaptive
+                                Estimation of
+                                Continuous-Time Regression Models using High-Frequency Data,</a> <span
+                                    class="journalTitle">Journal of
+          Econometrics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407617300635" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen, Jia Li
+                            </div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tvbg.pdf">Testing
+                                for Time-Varying
+                                Jump Activity for Pure Jump Semimartingales,</a> <span class="journalTitle">Annals of Statistics, <a href="https://projecteuclid.org/euclid.aos/1497319695" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/wo.pdf">The
+                                Pricing of Short-Term Market Risk: Evidence from Weekly Options,</a> <span
+                                    class="journalTitle">Journal of Finance, <a href="https://www.nber.org/papers/w21491" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span></div>
+                            <div class="year">2017</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jqr.pdf">Robust
+                                Jump Regressions,</a>
+                                <span class="journalTitle">Journal of the American Statistical Association, <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2016.1138866?journalCode=uasa20" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jia Li, George Tauchen
+                            </div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jur.pdf">Jump
+                                Regressions,</a> <span
+                                    class="journalTitle">Econometrica, <a href="https://www.econometricsociety.org/publications/econometrica/2017/01/01/jump-regressions" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen, Jia Li
+                            </div>
+                            <div class="year">2017</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/icet.pdf">Estimating
+                                the Volatility
+                                Occupation Time via Regularized Laplace Inversion,</a> <span class="journalTitle">Econometric Theory, <a href="https://www.cambridge.org/core/journals/econometric-theory/article/estimating-the-volatility-occupation-time-via-regularized-laplace-inversion/130C30270B9F79E5B65EAA20991F6A5B" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Jia Li, <span class="author">Viktor Todorov</span>, George Tauchen
+                            </div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rom.pdf">Inference
+                                Theory for
+                                Volatility Functional Dependencies,</a> <span class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407616300033" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Jia Li, <span class="author">Viktor Todorov</span>, George Tauchen
+                            </div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jbp.pdf">Roughing
+                                up Beta: Continuous
+                                vs. Discontinuous Betas, and the Cross Section of Expected Stock Returns,</a> <span
+                                    class="journalTitle">Journal of Financial Economics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X16300010" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Tim Bollerselv, Sophia
+                                Zhengzi Li
+                            </div>
+                            <div class="year">2016</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/evm.pdf">Efficient
+                                Estimation of
+                                Integrated Volatility in Presence of Infinite Variation Jumps with Multiple Activity
+                                Indices</a></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jean Jacod</div>
+                            <div class="year">2015</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tvt_pred.pdf">Tail
+                                Risk Premia and Return
+                                Predictability,</a> <span class="journalTitle">Journal of Financial Economics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X15001269" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Tim Bollerselv, <span class="author">Viktor Todorov</span>, Lai Xu
+                            </div>
+                            <div class="year">2015</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/opa.pdf">The
+                                Risk Premia Embedded in Index Options,</a> <span class="journalTitle">Journal of Financial Economics, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X15000987" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span></div>
+                            <div class="year">2015</div>
+
+                        </div>
+
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/bgpj.pdf">Jump
+                                Activity Estimation for
+                                Pure-Jump Ito Semimartingales via Self-Normalised Statistics,</a> <span
+                                    class="journalTitle">Annals of
+          Statistics, <a href="https://projecteuclid.org/euclid.aos/1434546224" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2015</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/abtt.pdf">The
+                                Fine Structure of Equity-Index Option Dynamics,</a> <span class="journalTitle">Journal of Econometrics, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2350997" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Torben Andersen, Oleg Bondarenko, <span
+                                    class="author">Viktor Todorov</span>, George Tauchen
+                            </div>
+                            <div class="year">2015</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ope.pdf">Parametric
+                                Inference and
+                                Dynamic State Recovery from Option Panels,</a> <span
+                                    class="journalTitle">Econometrica, <a href="https://www.nber.org/papers/w18046" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Torben Andersen, Nicola Fusari, <span
+                                    class="author">Viktor Todorov</span></div>
+                            <div class="year">2015</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tcb.pdf">Nonparametric
+                                Test for a
+                                Constant Beta between Ito Semimartingales based on High Frequency Data,</a> <span
+                                    class="journalTitle">Stochastic Processes and Their Applications, <a href="https://www.sciencedirect.com/science/article/pii/S0304414915000587" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Markus Rei&szlig;, <span class="author">Viktor Todorov</span>,
+                                George Tauchen
+                            </div>
+                            <div class="year">2015</div>
+
+                        </div>
+
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tvt.pdf">Time-Varying
+                                Jump Tails,</a>
+                                <span class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407614001109" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Tim Bollerslev</div>
+                            <div class="year">2014</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ksg.pdf">Limit
+                                Theorems for the
+                                Empirical Distribution Function of Scaled Increments of Ito Semimartingales at High
+                                Frequencies,</a> <span
+                                    class="journalTitle">Annals of Applied Probability, <a href="https://www.jstor.org/stable/42919784?seq=1#metadata_info_tab_contents" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2014</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/eve.pdf">Efficient
+                                Estimation of
+                                Integrated Volatility in Presence of Infinite Variation Jumps,</a> <span
+                                    class="journalTitle">Annals of
+          Statistics, <a href="https://projecteuclid.org/euclid.aos/1400592651" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jean Jacod</div>
+                            <div class="year">2014</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/pva.pdf">Volatility
+                                Activity:
+                                Specification and Estimation,</a> <span
+                                    class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407613001656" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen, Iaryna
+                                Grynkiv
+                            </div>
+                            <div class="year">2014</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/vot.pdf">Volatility
+                                Occupation
+                                Times,</a> <span class="journalTitle">Annals of Statistics, <a href="https://projecteuclid.org/euclid.aos/1378386241" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Jia Li, George Tauchen
+                            </div>
+                            <div class="year">2014</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/dpv.pdf">Power
+                                Variation
+                                from Second Order Differences for Pure Jump Semimartingales,</a> <span
+                                    class="journalTitle">Stochastic
+          Processes and Their Applications, <a href="https://www.sciencedirect.com/science/article/pii/S0304414913000975" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2013</div>
+
+                        </div>
+
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jtd.pdf">Jump
+                                Tails, Extreme
+                                Dependencies and the Distribution of Stock Returns,</a> <span class="journalTitle">Journal of
+          Econometrics, <a href="https://ideas.repec.org/a/eee/econom/v172y2013i2p307-324.html" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Tim Bollerslev, <span class="author">Viktor Todorov</span>, Sophia
+                                Zhengzi Li
+                            </div>
+                            <div class="year">2013</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rvj.pdf">Central
+                                Limit Theorems for
+                                Approximate Quadratic Variations of Pure Jump into Semimartingales,</a> <span
+                                    class="journalTitle">Stochastic
+          Processes and Their Applications, <a href="https://www.sciencedirect.com/science/article/pii/S0304414912002438"  class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">A. Diop, Jean Jacod, <span class="author">Viktor Todorov</span>
+                            </div>
+                            <div class="year">2013</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ilt.pdf">Inverse
+                                Realized Laplace
+                                Transforms for Nonparametric Volatility Density Estimation in Jump-Diffusions,</a> <span
+                                    class="journalTitle">Journal of American Statistical Association, <a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2012.682854" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2012</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rlt_jumps.pdf">Realized
+                                Laplace Transforms
+                                for Pure-Jump Semimartingales,</a> <span class="journalTitle">Annals of Statistics, <a href="https://projecteuclid.org/euclid.aos/1342625467" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2012</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rlt.pdf">The
+                                Realized Laplace Transform of Volatility,</a> <span
+                                    class="journalTitle">Econometrica, <a href="https://www.jstor.org/stable/41493845?seq=1#metadata_info_tab_contents" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2012</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tails.pdf">Estimation
+                                of Jump
+                                Tails,</a> <span class="journalTitle">Econometrica, <a href="https://www.econometricsociety.org/publications/econometrica/2011/11/01/estimation-jump-tails" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Tim Bollerslev, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2011</div>
+
+                        </div>
+
+                        <div class="divTableRow">
+
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jrp.pdf">Tails,
+                                Fears and Risk
+                                Premia,</a> <span class="journalTitle">Journal of Finance, <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-6261.2011.01695.x" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Tim Bollerslev, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2011</div>
+                        </div>
+
+                        <div class="divTableRow">
+
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/rltest.pdf">Realized
+                                Laplace Transforms
+                                for Estimation of Jump Diffusive Volatility Models,</a> <span class="journalTitle">Journal of
+          Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407611001291" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen, Iaryna
+                                Grynkiv
+                            </div>
+                            <div class="year">2011</div>
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/bg.pdf">Volatility
+                                Jumps,</a> <span
+                                    class="journalTitle">Journal of Business and Economic Statistics, <a href="https://www.tandfonline.com/doi/abs/10.1198/jbes.2010.08342" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2011</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/tse.pdf">Limit
+                                Theorems for Power
+                                Variations of Pure-Jump Processes with Application to Activity Estimation,</a> <span
+                                    class="journalTitle">Annals of Applied Probability, <a href="https://projecteuclid.org/euclid.aoap/1300800981" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2011</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jdsv_app.pdf">Econometric
+                                Analysis of
+                                Jump-Driven Stochastic Volatility Models,</a> <span class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407610000515" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2011</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/cvpj.pdf">Do
+                                Price and Volatility Jump Together?,</a> <span class="journalTitle">Annals of Applied Probability, <a href="https://projecteuclid.org/euclid.aoap/1279638791" class="journalLink" target="_blank">Journal Link</a></span>
+                            </div>
+                            <div class="authors">Jean Jacod, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2010</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/bt.pdf">Jumps
+                                and Betas: A New
+                                Theoretical Framework for Disentangling and Estimating Systematic Risks,</a> <span
+                                    class="journalTitle">Journal
+          of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407609003017" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, Tim Bollerslev</div>
+                            <div class="year">2010</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/research/researchdetail?guid=8d435812-1caf-4a5e-abf0-4a0b310ab85c">Realized
+                                Volatility and
+                                Multipower Variation</a></div>
+                            <div class="authors">Torben Andersen, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2010</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/vrpd.pdf">Variance
+                                Risk Premium
+                                Dynamics: The Role of Jumps,</a> <span
+                                    class="journalTitle">Review of Financial Studies, <a href="https://academic.oup.com/rfs/article/23/1/345/1578053" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2010</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/ac.pdf">Activity
+                                Signature Functions
+                                for High-Frequency Data Analysis,</a> <span
+                                    class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407609001651" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2010</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/jt.pdf">Testing
+                                for Common Arrival
+                                of Jumps in Discretely-Observed Multidimensional Processes,</a> <span
+                                    class="journalTitle">Annals of
+          Statistics, <a href="https://projecteuclid.org/euclid.aos/1245332833" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors">Jean Jacod, <span class="author">Viktor Todorov</span></div>
+                            <div class="year">2009</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle"><a target="_blank"
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/pvi.pdf">Estimation
+                                of
+                                Continuous-Time Stochastic Volatility Models with Jumps Using High-Frequency Data,</a>
+                                <span
+                                        class="journalTitle">Journal of Econometrics, <a href="https://www.sciencedirect.com/science/article/pii/S0304407608001814" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span></div>
+                            <div class="year">2009</div>
+
+                        </div>
+                        <div class="divTableRow">
+                            <div class="paperTitle "><a
+                                    href="https://www.kellogg.northwestern.edu/faculty/todorov/htm/papers/sc.pdf">Simulation
+                                Methods for
+                                Levy-driven CARMA Stochastic Volatility Models,</a> <span class="journalTitle">Journal of Business &amp;
+          Economic Statistics, <a href="https://www.tandfonline.com/doi/abs/10.1198/073500106000000260" class="journalLink" target="_blank">Journal Link</a></span></div>
+                            <div class="authors"><span class="author">Viktor Todorov</span>, George Tauchen</div>
+                            <div class="year">2006</div>
+
+                        </div>-->
                     </div>
                 </div>
             </div>
